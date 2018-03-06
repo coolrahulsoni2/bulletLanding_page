@@ -1,0 +1,298 @@
+ /* Custom Css Code For the PayTm Mall CreditMate Page */
+
+
+/* Custom Theme Color Defined Css */
+.theme_text_color{color:#fe5c0f;}
+.theme_bg_color{background-color:#fe5c0f;}
+.theme_border_color{border-color: #fe5c0f;}
+input[type='radio']{ background: #fe5c0f;color:#fe5c0f; }
+hr {
+  background-image: -webkit-gradient(linear, right top, left top, from(transparent), color-stop(#fe5c0f), to(transparent));
+  background-image: linear-gradient(to left, transparent, #fe5c0f, transparent);
+  border: 0;
+  height: 1px;
+}
+.btn-rounded:hover{background-color: #fe5c0f}
+.btn-rounded:focus{background-color: #fe5c0f}
+.btn-rounded:active{background-color: #fe5c0f}
+.btn-rounded:visited{background-color: #fe5c0f}
+.btn-rounded.active{background-color: #fe5c0f}
+.theme_bg_color_hover:hover{background-color:#fe5c0f;}
+.theme_bg_color_Button_hover:hover{background-color:#fe5c0f;border: 1px solid #fe5c0f}
+
+
+
+
+/*Body Css */
+body{background: url(../img/circles-light.png)  repeat ;}
+body{font-family: 'Muli', sans-serif;}
+label{font-weight:600;font-size:16px;}
+.text-underline{text-decoration: underline;}
+
+/* Font Size Css */
+.fnt20{font-size:20px;}
+.fnt22{font-size:22px;}
+.fnt24{font-size:24px;}
+.fnt26{font-size:26px;}
+.fnt28{font-size:28px;}
+.fnt30{font-size:30px;}
+.fnt32{font-size:32px;}
+.fnt34{font-size:34px;}
+.fnt36{font-size:36px;}
+.fnt38{font-size:38px;}
+
+.font-weight-600{font-weight: 600;}
+
+
+/*Margin & Padding Css */
+.pdnglft20{padding-left: 20px;}
+
+.mrgntp2{margin-top: 2px;}
+.mrgntp3{margin-top: 3px;}
+
+/*Margin & Padding Css Ends */
+
+
+
+/* Color Css */
+svg path{fill:#ffffff;}
+.clr424{color: #424242;}
+
+
+/* Color css Ends */
+
+
+    .homepagebtn{ color: #424242; outline: none; text-transform: capitalize; padding: 12px 20px; height: 70px; border-radius: 10px; background-color: #fff; box-shadow: 0 2px 4px 0 rgba(111,110,110,0.5);position: relative;}
+    .homepagebtn:hover{background-color: #e0e0e0;}
+
+    .cardswidth{width:30rem;}
+    .pdngleft0{padding-left: 0px;}
+    .radioLabel label{color:#212529 !important;}
+	.bg-img{background-image: url(../img/banner.png);
+    background-repeat: no-repeat;
+    background-position: top;}
+    .bg-banner-img{background-image: url(../img/slider-4.jpg);}
+    .btn-rounded{border-radius: 25px !important;height: 50px;width:50px;background-color:#ddd;}
+
+    .bikePrice span{font-size:14px;vertical-align:top;display: inline-block;margin-top: 5px;color:#aaa;}
+    .bike_spect table {color:white !important;}
+    .bike_spect table tr{border-bottom: 1px solid #fff;margin-top:5px;margin-bottom: 5px;min-height: 50px;}
+    .bike_spect table tr td:first-child{width:30%;}
+     .bike_spect table tr:last-child{border-bottom: none;}
+     .bike_spect table tr td{vertical-align:middle}
+
+
+     .whychoosePointIcon::before {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    background: #ca2e3e;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    position: absolute;
+    content: "";
+    z-index: 0;
+    left: -17px;
+    top: 15px;
+}
+
+ .whychoosePointIcon {
+height: 70px;
+line-height: 80px;
+position: relative;
+text-align: center;
+}
+
+.whychoosePointIcon span{position: relative;
+  display: table;
+z-index: 1;
+color: #fff;
+font-size: 16px;
+text-align: center;}
+
+
+    .section-title{}
+
+
+@media (max-width: 576px) {
+  .cardswidth{width:100%;}
+}
+
+
+
+/*Style for Form Validation Plugins*/
+
+
+/* Color of invalid field */
+.has-danger .control-label,
+.has-danger .help-block,
+.has-danger .form-control-feedback,
+.is-invalid .control-label,
+.is-invalid .help-block,
+.is-invalid .form-control-feedback {
+    color: #f35b58 !important;
+}
+
+/* Color of valid field */
+.has-success .control-label,
+.has-success .help-block,
+.has-success .form-control-feedback ,
+.is-valid .control-label,
+.is-valid .help-block,
+.is-valid .form-control-feedback {
+    color: #59b5a8 !important;
+}
+
+.form-control-feedback {
+    position: relative;
+    display: inline-block;
+    font-size:18px;
+    font-weight:600;
+}
+
+.has-success .errormsg{color: #59b5a8 !important;}
+.has-danger .errormsg{color: #f35b58 !important;}
+.has-danger .fv-control-feedback{color:#f35b58 !important;}
+.has-success .fv-control-feedback{color:#59b5a8 !important;}
+
+ .inputGroupContainer .form-control-feedback,
+ .form-control-feedback {
+    top: 2px;
+    right: -5px;
+}
+
+/*Style for Form Validation Plugins Ends*/
+
+
+
+/* Input Type Radio and checkbox Css */
+input[type='radio'] {visibility: hidden}
+/*
+input[type='radio']:after {
+        width: 25px;
+        height: 25px;
+        border-radius: 15px;
+        top: -5px;
+        left: -20px;
+        position: relative;
+        background-color: #ddd;
+        content: '';
+        display: inline-block;
+        visibility: visible;
+        border: 2px solid white;
+    }
+
+
+    input[type='radio']:checked:after {
+        width: 25px;
+        height: 25px;
+        border-radius: 15px;
+        top: -5px;
+        left: -20px;
+        position: relative;
+        background-color: #fe5c0f;
+        content: '';
+        display: inline-block;
+        visibility: visible;
+        border: 2px solid white;
+    }
+
+    */
+
+.ul-checkbox
+{
+    list-style-type:none;
+}
+.li-checkbox {
+  line-height: 25px;
+}
+/* Bootstrap mixins */
+/* Checkbox styling */
+.styledCheckbox {
+  width: 20px;
+  margin-right: 20px;
+  position: relative;
+  float: left;
+}
+.label-checkbox {
+  cursor: pointer;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 0px;
+  border-radius: 4px;
+  background-color: #f5f5f5;
+  border: 1px solid #bbbbbb;
+  border-color: #e6e6e6 #e6e6e6 #bfbfbf;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  border-bottom-color: #a2a2a2;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+.label-checkbox:after {
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+  opacity: 0;
+  content: '';
+  position: absolute;
+  width: 9px;
+  height: 5px;
+  background: transparent;
+  top: 4px;
+  left: 4px;
+  border: 3px solid #fe5c0f;
+  border-top: none;
+  border-right: none;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+.label-checkbox:hover::after {
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+  filter: alpha(opacity=30);
+  opacity: 0.5;
+}
+.input-checkbox[type=checkbox] {
+  visibility: hidden;
+}
+.input-checkbox[type=checkbox]:checked + .label-checkbox:after {
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: alpha(opacity=100);
+  opacity: 1;
+}
+                                           
+/*** Input Type Radio and CheckBox Ends */
+
+
+/*TypeWriter Animation Css*/
+.cursor:after {
+    content:"_";
+    opacity: 0;
+    animation: cursor 1s infinite;
+}
+
+@keyframes cursor {
+    0% {
+        opacity: 0;
+    }
+    40% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    90% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+/*TypeWriter Animation Css Ends
